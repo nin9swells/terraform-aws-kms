@@ -31,7 +31,7 @@ variable "product_domain" {
 }
 
 variable "additional_tags" {
-  type        = "map"
+  type        = map
   description = "Additional tags to be added to kms-cmk"
   default     = {}
 }
